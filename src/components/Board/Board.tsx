@@ -31,6 +31,7 @@ const Board = () => {
 
     return false;
   };
+  
   // THIS FUNCTION IS  USED TO ASSIGN VALUE TO EACH SQAURE
   const handleClick = (index: number) => {
     if (boxValue[index] !== null || winner) {
